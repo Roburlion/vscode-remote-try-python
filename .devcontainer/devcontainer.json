@@ -35,7 +35,7 @@
 	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install -r requirements.txt && git config --global user.name 'Roburlion' && git config --global user.email 'benitorcalabria@gmail.com'"
+	"postCreateCommand": "pip3 install -r requirements.txt && git config --global user.name 'Roburlion' && git config --global user.email 'benitorcalabria@gmail.com' && python -m flask run --port 9000"
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
